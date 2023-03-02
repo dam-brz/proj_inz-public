@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Penny-pincher</string>
+    <string name="tab_list">Wydatek</string>
+    <string name="tab_fuel_calculator">Kalkulator</string>
+    <string name="tab_expense_chart">Podsumowanie</string>
+    <string name="empty_list_info">Lista jest pusta</string>
+    <string name="expense_item_list_name_lbl">Nazwa</string>
+    <string name="expense_item_list_description_lbl">Opis</string>
+    <string name="add_expense_button_desc">Dodanie wydatku</string>
+    <string name="category_name">Nazwa kategorii</string>
+    <string name="enter_expense_name">Dodaj wydatek</string>
+    <string name="enter_expense_component">Dodaj składową wydatku</string>
+    <string name="add_category">Dodaj kategorię</string>
+    <string name="edit_expense">Edytuj wydatek</string>
+    <string name="btn_save_changes">Zapisz</string>
+    <string name="menu_add_category">Kategoria</string>
+    <string name="menu_about">O aplikacji</string>
+    <string name="about_text">Aplikacja stworzona na potrzeby zaliczenia przedmiotu projekt inżynierski (2022/2023) informatyki na SWPW w Płocku.</string>
+    <string name="btn_add_expense">Dodaj</string>
+    <string name="btn_cancel">Anuluj</string>
+    <string name="btn_yes">Tak</string>
+    <string name="et_expense_name">Nazwa wydatku</string>
+    <string name="et_expense_component_name">Nazwa składowej</string>
+    <string name="et_expense_component_value">Wartość</string>
+    <string name="expense_was_settled">Wydatek został oznaczony jako rozliczony!</string>
+    <string name="expense_wasnt_settled">Wydatek został oznaczony jako nierozliczony!</string>
+    <string name="dialog_delete_expense_message">Czy na pewno chcesz usunąć pozycję z listy?</string>
+    <string name="dialog_delete_category_message">Czy na pewno chcesz usunąć kategorię? Ta operacja spowoduje przeniesienie wydatków do kategorii domyślnej.</string>
+    <string name="mileage">Spalanie</string>
+    <string name="trip_distance">Dystans</string>
+    <string name="fuel_price">Cena paliwa</string>
+    <string name="btn_calculate">Oblicz</string>
+    <string name="tv_fuel_needed">Potrzebna ilość paliwa</string>
+    <string name="tv_total_fuel_price">Całkowity koszt paliwa</string>
+    <string name="btn_add_as_expense">Dodaj wydatek</string>
+    <string name="btn_last_three_months">Wydatki z ostatnich miesięcy</string>
+    <string name="btn_by_category">Wydatki według kategorii</string>
+    <string name="default_category_error">Domyślna kategoria nie może być usunięta!</string>
+    <string name="category_exists">Kategoria istnieje!</string>
+    <string name="name_limit">Max 15 znaków!</string>
+    <string name="not_empty">Nie może być puste!</string>
+    <string name="default_expense_name">Podróż</string>
+    <string name="default_component_name">Paliwo</string>
+</resources>

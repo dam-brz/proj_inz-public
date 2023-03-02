@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Penny-pincher</string>
+    <string name="tab_list">Expenses</string>
+    <string name="tab_fuel_calculator">Fuel calculator</string>
+    <string name="tab_expense_chart">Summary</string>
+    <string name="empty_list_info">The expense list is empty.</string>
+    <string name="expense_item_list_name_lbl">Expense name :</string>
+    <string name="expense_item_list_description_lbl">Description :</string>
+    <string name="add_expense_button_desc">Add expese buttorn</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="category_name">Category name</string>
+    <string name="enter_expense_name">Add new expense</string>
+    <string name="enter_expense_component">Add expense component</string>
+    <string name="add_category">Add category</string>
+    <string name="edit_expense">Edit expense</string>
+    <string name="btn_save_changes">Save</string>
+    <string name="menu_add_category">Category</string>
+    <string name="menu_about">About</string>
+    <string name="about_text">Application created for the purpose of passing the course engineering design (2022/2023) of computer science at SWPW in Plock.</string>
+    <string name="about_author1" translatable="false">&#169; DAMIAN BRZESKI</string>
+    <string name="btn_add_expense">Add</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_yes">Yes</string>
+    <string name="et_expense_name">Expense name</string>
+    <string name="et_expense_component_name">Component name</string>
+    <string name="et_expense_component_value">Value</string>
+    <string name="expense_was_settled">The expense has been marked as settled!</string>
+    <string name="expense_wasnt_settled">The expense has been marked as unsettled!</string>
+    <string name="tv_test_value" translatable="false">Test value</string>
+    <string name="wallet_icon_desc" translatable="false">Wallet icon</string>
+    <string name="tv_test_date" translatable="false">12.06.2022</string>
+    <string name="tv_test_expense_total_value" translatable="false">325.51 zł</string>
+    <string name="tv_test_expense_total_value_lbl" translatable="false">Total value:</string>
+    <string name="dialog_delete_expense_message">Are you sure you want to remove an item from the list?</string>
+    <string name="dialog_delete_category_message">Are you sure you want to delete the category? This operation will move the expenses to the default category.</string>
+    <string name="icon" translatable="false" />
+    <string name="mileage">Mileage</string>
+    <string name="trip_distance">Trip distance</string>
+    <string name="fuel_price">Fuel price</string>
+    <string name="btn_calculate">Calculate</string>
+    <string name="tv_fuel_needed">Fuel needed:</string>
+    <string name="tv_total_fuel_price">Total fuel price</string>
+    <string name="btn_add_as_expense">Add as expense</string>
+    <string name="btn_last_three_months">Expenses for the last three months</string>
+    <string name="btn_by_category">Expenses per category</string>
+    <string name="default_category_error">"Default category cannot by deleted!"</string>
+
+    <string-array name="test_values">
+        <item>Select category</item>
+    </string-array>
+    <string name="category_exists">Category exists!</string>
+    <string name="name_limit">\"Max 15 characters\"</string>
+    <string name="not_empty">Cannot be empty!</string>
+    <string name="default_date_format" translatable="false">EEE, dd MMMM yyyy</string>
+    <string name="float_point" translatable="false">%.2f</string>
+    <string name="default_expense_name">Trip</string>
+    <string name="default_component_name">Fuel</string>
+
+</resources>

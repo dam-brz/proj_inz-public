@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvEditExpenseItemCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        app:cardBackgroundColor="@color/blue_mid"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="5dp"
+        app:cardMaxElevation="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:id="@+id/tvEditExpenseName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="59dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:text="@string/tv_test_value"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivEditIcon"
+            android:layout_width="100dp"
+            android:layout_height="115dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/wallet_icon_desc"
+            app:srcCompat="@drawable/ic_wallet_cv" />
+
+        <TextView
+            android:id="@+id/tvEditExpenseDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="107dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:text="@string/tv_test_date"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvEditExpenseCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:text="@string/tv_test_expense_total_value"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tvEditCategoryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/white"
+            android:text="@string/tv_test_value"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/ibEditExpense"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/blue_mid"
+            app:srcCompat="@drawable/ic_edit" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvEditExpenseComponentsItemCard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/cvEditExpenseItemCard"
+        android:layout_alignParentBottom="true"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="5dp"
+        app:cardMaxElevation="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvExpenseComponents"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabAddExpenseComponent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@drawable/ic_add_button"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:contentDescription="@string/icon" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
